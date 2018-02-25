@@ -1,5 +1,6 @@
 # plot 4
 require(lubridate);
+par(bg=NA);
 df <- readRDS(file.path("..","df_selected_dates.rds"));
 par(mfcol=c(2,2));
 dateTimes <- with(df,ymd(Date)+hms(Time));
@@ -57,5 +58,5 @@ with(df,
           type="l"));
 
 
-dev.copy(png,file.path("..","figure","plot4.png"),width=480,height=480,bg="transparent");
+dev.copy(png,file.path("..","figure","plot4.png"),width=480,height=480);
 dev.off();
