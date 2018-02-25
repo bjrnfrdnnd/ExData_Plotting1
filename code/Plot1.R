@@ -7,5 +7,5 @@ with(df,
           col="red",
           xlab="Global Active Power (kilowatts)",
           main="Global Active Power"));
-dev.copy(png,file.path("..","figure","plot1.png"),width=480,height=480,bg="transparent");
+dev.copy(png,file.path("..","figure","plot1.png"),width=480,height=480);
 dev.off();
