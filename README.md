@@ -1,6 +1,6 @@
 ## Introduction
 
-This is the programming assignment for the Coursera Course "Exploratory dat analysis", week 01.
+This is the programming assignment for the Coursera Course "Exploratory data analysis", week 01.
 
 The Task is to reproduce 4 plots given by the instructors, based on data from the
 [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/).
