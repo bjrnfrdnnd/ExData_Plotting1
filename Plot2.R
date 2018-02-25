@@ -1,7 +1,7 @@
 # plot 2
 require(lubridate)
 par(bg=NA);
-df <- readRDS(file.path("..","df_selected_dates.rds"));
+df <- readRDS(file.path("df_selected_dates.rds"));
 par(mfrow=c(1,1));
 dateTimes <- with(df,ymd(Date)+hms(Time));
 with(df,
@@ -10,5 +10,5 @@ with(df,
           xlab="",
           ylab="Global Active Power (kilowatts)",
           type="l"));
-dev.copy(png,file.path("..","figure","plot2.png"),width=480,height=480);
+dev.copy(png,file.path("plot2.png"),width=480,height=480);
 dev.off();

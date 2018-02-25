@@ -30,7 +30,6 @@ if (1){
     saveRDS(df2, "df_selected_dates.rds");
 }
 
-setwd(file.path("code"));
 # do plot1
 if (1){
     source("Plot1.R");
@@ -50,4 +49,4 @@ if (1){
 if (1){
     source("Plot4.R");
 }
-setwd(file.path(".."));
+
