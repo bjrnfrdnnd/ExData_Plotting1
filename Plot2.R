@@ -1,5 +1,5 @@
 # plot 2
-require(lubridate)
+require(lubridate);
 par(bg=NA);
 df <- readRDS(file.path("df_selected_dates.rds"));
 par(mfrow=c(1,1));
