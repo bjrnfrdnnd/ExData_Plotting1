@@ -57,5 +57,5 @@ with(df,
           type="l"));
 
 
-dev.copy(png,file.path("..","figure","plot4.png"),width=480,height=480);
+dev.copy(png,file.path("..","figure","plot4.png"),width=480,height=480,bg="transparent");
 dev.off();
